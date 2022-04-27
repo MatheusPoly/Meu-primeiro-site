@@ -1,0 +1,116 @@
+/* Termos gerais da página */
+:root{
+    --vermelho: #e50914;
+    --preta: #000000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Elementos base*/
+body{
+    background: var(--preta);
+    font-family: Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-style: bold;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: #e6c407;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(241, 238, 11);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*filme pricipal*/
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.100),rgba(0,0,0,.50)), url("/img/capa-drgon.jpg");
+    
+    height: 620px;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.filme-principal .titulo{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-top: 20%;
+    padding-top: 10%;
+}
+
+.botao{
+    background-color: rgba(0, 0, 0, 0.61);
+    border: none;
+    color: white;
+    border-radius: 4px;
+
+    padding: 15px 15px;
+    margin-right: 15px;
+    font-size: 14px;
+    margin-left: px;
+
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+
+.botao .fa-solid{
+    margin-right: 8px;
+}
+
+.filme-principal .container{
+    margin-left: 10px;
+    width: 70%;
+}
+
+.carrossel-titulo{
+    padding-top: 25px;
+    padding-bottom: 8px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrossel-filmes{
+    margin-top: 5px;
+}
