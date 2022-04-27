@@ -1,4 +1,4 @@
-# Meu primeiro site :happy:
+# Meu primeiro site 😄
 
 ## Meu primeiro site desenvolvido de forma básica utilizando HMTL e CSS
 
